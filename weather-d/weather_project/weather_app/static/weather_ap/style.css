@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 50px; 
+    background-image: url(../images/imgs-1.jpg); 
+    top: 10px;
+}
+.new {
+  color: aliceblue;
+}
+form,input{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+
+  
+input[type="text"] {
+    padding: 5px;
+    border: 3px solid black;
+    border-radius: 5px;
+    width: 140px;
+    height: 26px;
+}
+  
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+  
+.city-container{
+  background-color: rgba(255, 255, 255, 0.39);
+  margin: 30px 20px 30px 20px;
+  width: 250px;
+  height: 250px;
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 3px 3px 14px 14px ;
+}
+
+.comparison-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    gap: 0px 200px;
+}
+.comparison-container h2{
+  padding-top: 10px;
+  
+}
+.comparison-container p{
+  padding-top: 10px;
+}
+.comparison-container img{
+  padding-top: 10px;
+  width: 100px;
+  height: 100px;
+}
